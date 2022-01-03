@@ -1,0 +1,207 @@
+.buttons{
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+.buttons.start-of-game{
+    display: block;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    font-size: x-large;
+    border-radius: 25px;
+    color: white;
+    border: transparent;
+    font-family: 'Prompt', sans-serif;
+}
+
+#start{
+    margin-top: 130px;
+    background-image: linear-gradient(to right, rgb(240, 129, 54),rgb(233, 41, 41)); 
+
+}
+
+#start:hover{
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.9);
+}
+
+h1{
+    color: white;
+    font-size: 7rem;
+    background-image: linear-gradient(to right, rgb(240, 129, 54),rgb(233, 41, 41)); 
+    display: block;
+    margin-top: 120px;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    text-decoration: underline 2px white 8px;
+}
+
+
+
+
+
+
+
+body{
+    background-color: #333;
+    margin: 0;
+}
+
+
+
+.flagContainer{
+    /* margin-left: 400px;
+    margin-bottom: 2px; */
+    margin-top: 60px; 
+    width: 500px;
+    height: 300px;
+    display: flex;
+    /* justify-content: center; */
+    border: 2px solid grey;
+    margin-left: 425px;
+    position: absolute;
+}
+
+
+.flagPart{
+    width: 175px;
+    border-right: 0;
+    border: 3px solid grey;
+}
+ 
+.flagPart:hover{
+    border-color: white;
+    transition:  0.3s;
+    box-shadow: 1px 5px 10px 3px rgb(99, 95, 95); 
+}
+
+
+
+
+
+
+
+
+
+#countryName{
+    display: block;
+    color: rgb(29, 18, 18);
+    font-size: 2rem;
+    background-color: rgb(158, 158, 245);
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    text-decoration: underline 2px white 8px;
+}
+
+
+#points{
+    color: rgb(184, 184, 184);
+    font-family: 'Prompt', sans-serif;
+    margin-left: 5px;
+    font-family: 'Prompt', sans-serif;
+}
+
+
+.colours{
+    border-radius: 50%;
+    border:transparent;
+    width: 90px;
+    height: 90px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.colours:hover{
+    width: 92px;
+    height: 92px;
+    transition:  0.3s;
+    box-shadow: 0 15px 20px 1px rgb(31, 19, 19);
+}
+
+
+#coloursContainer{
+    border: 0;
+    justify-content: start;
+    width: 300px;
+    margin-left: 20px;
+    /* height: 500px; */
+    display: inline-block;
+    position: absolute;
+}
+
+#containerForBoth{
+    position: relative;
+    height: 100%;
+    width: 1000px;
+    
+}
+
+
+
+#check{
+    margin-left: 60%;
+    margin-top: 445px;
+}
+#next{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 445px;
+}
+
+.buttons2{
+    font-family: 'Prompt', sans-serif;
+    width: 160px;
+    height: 50px;
+    cursor: pointer;
+    font-size: x-large;
+    border-radius: 25px;
+    color: white;
+    border: transparent;
+    background-color: rgb(158, 158, 245);
+}
+
+.buttons2:hover{
+    transition:  0.1s;
+    box-shadow: 0 3px 18px -9px rgb(255, 255, 255);
+}
+
+#rightAnswer{
+    position: absolute;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Prompt', sans-serif;
+    margin-top: 150px;
+    width: 250px;
+    margin-left: 40px;
+    letter-spacing: 0.1rem;
+}
+
+
+#score{
+    color: white;
+    font-size: 4rem;
+    background-image: linear-gradient(to right, rgb(73, 221, 43),rgb(15, 128, 58)); 
+    display: block;
+    margin-top: 120px;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    text-decoration: underline 2px white 8px;
+}
+
+#done{
+    display: block;
+    margin-top: 50px;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    letter-spacing: 6px;
+    margin-left: auto;
+    margin-right: auto;
+}
+

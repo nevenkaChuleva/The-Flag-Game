@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Map App </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+    
+    <section id="start-of-game">
+        <div id="bg"></div>
+        <h1> The Flag Game </h1>
+        <button class="buttons start-of-game" id="start"> Start Game </button>
+    </section>
+    
+
+    <section id="middle-of-game" style="display:none"> <!--  -->
+        <h2 id="countryName"> Guess the flag of: Germany</h2>
+
+        <div id="containerForBoth">
+        <div id="coloursContainer">
+            <button class="colours" id="red" style="background-color: #FF1919"></button>
+            <button class="colours" id="green" style="background-color: #008000"></button>
+            <button class="colours" id="blue" style="background-color: #3B3BFF"></button>
+            <button class="colours" id="yellow" style="background-color: #F5F517"></button>
+            <button class="colours" id="black" style="background-color: #000000"></button>
+            <button class="colours" id="white" style="background-color: #FFFFFF"></button>
+            <button class="colours" id="orange" style="background-color: #FF7B00"></button>
+        </div>
+        
+        <div id="rightAnswer"></div>
+        
+
+        <div class="flagContainer"  id="flagContainer">
+            <div class="flagPart partOne" id="partOne"></div>
+            <div class="flagPart partTwo" id="partTwo"></div>
+            <div class="flagPart partThree" id="partThree"></div>
+        </div>
+        
+        <button class="buttons2 check" id="check"> Check </button> 
+        <button class="buttons2 next" id="next"> Next Round </button> 
+    </div>
+    
+    </section>
+
+    <section id="end" style="display:none">
+        <h2 id="done"> Game Over</h2>
+        <p id="score"></p>
+    </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
