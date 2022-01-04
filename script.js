@@ -90,21 +90,14 @@ let Italy = new Country("Italy", greenColour, whiteColour, redColour, false);
 
 let endRounds;
 
-let newRounds = [];
-newRounds[0] = Belgium;
-newRounds[1] = Ireland;
-newRounds[2] = France;
-newRounds[3] = Nigeria;
-newRounds[4] = Romania;
-newRounds[5] = Italy;
-newRounds[6] = endRounds;
-
+let newRounds = [Belgium, Ireland, France, Nigeria, Romania, Italy, endRounds];
 
 
 // Main Logic
 function startGame(){
     startOfGame.style.display = "none";
     midOfGame.style.display = "block";
+    alert("Instructions: Select a colour from the given palette and then click on a square you want the colour in.");
     nextRound();
 }
 
