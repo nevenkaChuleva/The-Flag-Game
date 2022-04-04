@@ -97,7 +97,6 @@ let newRounds = [Belgium, Ireland, France, Nigeria, Romania, Italy, endRounds];
 function startGame(){
     startOfGame.style.display = "none";
     midOfGame.style.display = "block";
-    alert("Instructions: Select a colour from the given palette and then click on a square you want the colour in.");
     nextRound();
 }
 
